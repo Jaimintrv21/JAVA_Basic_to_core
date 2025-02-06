@@ -5,7 +5,7 @@ def create_java_files(start_name, end_suffix):
         start_version = float(start_name.split("_")[1])
         end_version = float(end_suffix.split("_")[1])
     except (IndexError, ValueError):
-        print("Invalid start or end name format. Use the format 'module1_1.0' and 'module1_1.12'.")
+        print("Invalid start or end name format. Use the format 'module2_2.1' and 'module2_2.55'.")
         return
 
     if end_version <= start_version:
@@ -38,6 +38,6 @@ public class {class_name} {{
     print(f"Java files created in the 'output' directory from {start_name} to {end_suffix}.")
 
 # Example usage
-start_name = "module1_1.0"
-end_suffix = "module1_1.12"
+start_name = "module2_2.1"
+end_suffix = "module2_2.55"
 create_java_files(start_name, end_suffix)
