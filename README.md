@@ -83,4 +83,6 @@ This document provides a comprehensive list of key Java programming concepts, ca
 * **Testing:** Unit Testing (JUnit) 
 * **Dependency Injection:** Spring Framework 
 * **Concurrency Utilities:** Fork/Join Framework, Executor Framework 
-* **Java Security:** Authentication, Authorization 
+* **Java Security:** Authentication, Authorization
+
+* **Made with ❤️ and a lot of ☕ by the [Jaimin Trivedi](https://github.com/Jaimintrv21)** 
