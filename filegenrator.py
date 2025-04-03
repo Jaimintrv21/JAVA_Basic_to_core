@@ -38,6 +38,6 @@ public class {class_name} {{
     print(f"Java files created in the 'output' directory from {start_name} to {end_suffix}.")
 
 # Example usage
-start_name = "module2_2.1"
-end_suffix = "module2_2.55"
+start_name = "module4_1.1"
+end_suffix = "module4_2.16"
 create_java_files(start_name, end_suffix)
